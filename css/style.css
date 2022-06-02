@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    position: absolute;
+    top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+body{
+    min-height: 100vh;
+    font-family: "Work Sans", sans-serif;
+    background-color: lightblue;
+    background-image: url(/img/loading.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+section.panel h1{
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+section.panel{
+    min-height: 100vh;
+    padding: 2rem;
+    border: 1rem solid white;
+    font-size: 2rem;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+section.panel.permission{
+    background-color: black;
+    color: white;
+}
+section.panel.positive{
+    background-color: steelblue;
+}
+section.panel p strong{
+    text-decoration: underline wavy white;
+}
+section.panel.negative{
+    background-color: goldenrod;
+}
+section.panel.error{
+    background-color: red;   
+    color: white; 
+}
+.cta{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 18rem;
+    display: block;
+    margin: 4rem auto 0 auto;
+    background-color: white;
+    border: 0;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+
+}
+section.panel.hidden{
+    display: none;
+}

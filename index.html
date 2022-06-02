@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Will rain?</title>
+        <link rel="stylesheet" href="./css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <img src="/img/logo.svg" alt="Will rain?" width="60px">
+        </header>
+        <section class="panel permission hidden">
+            <p>I need to know your location to tell you if it will rain </p>
+            <button class="cta">Permission</button>
+        </section>
+        <section class="panel positive hidden">
+            <h1>☂️</h1>
+            <p>This <strong>text will be displayed</strong> if it rains</p>
+        </section>
+        <section class="panel negative hidden">
+            <h1>🌂</h1>
+            <p>This text will be displayed if it doesn't rain</p>
+        </section>
+        <section class="panel error hidden">
+            <h1>🥺</h1>
+            <p>This text will be displayed if an error occurs</p>
+            <a href="/" class="cta">Try again</a>
+        </section>
+        <script src="/js/main.js"></script>
+    </body>
+</html>
